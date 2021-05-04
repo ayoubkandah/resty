@@ -146,7 +146,11 @@ padding-bottom: 15px;
     // padding-bottom: 500px;
     background-color: rgb(230, 233, 233);
         border: 1px solid rgb(212, 211, 211);
-h6{
+
+        div{
+            
+        }
+        h6{
     display: inline-block;
     color: rgb(255, 255, 255);
     // background-color: ;
@@ -156,12 +160,17 @@ h6{
     margin-bottom:1px ;
     border: 1px solid rgb(60, 169, 212);
     border-radius: 10px 00px 00px 10px;
-
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    
 }h5{
-    background-color: rgb(158, 153, 153);
+    border: 1px solid rgb(60, 169, 212);
+    background-color: rgb(206, 201, 201);
     display: inline-block; 
-    margin-left: 5px;
-    padding:5px
+    // margin-left: 5px;
+    padding:5px;
+    color:rgb(6, 146, 201);
 // margin-bottom:3px ;
 }
 
