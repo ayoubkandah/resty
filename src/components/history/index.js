@@ -26,13 +26,14 @@ if(localStorage.getItem("method")){
         methods.map((ele,ind)=>{
 
            return(
+           <div key={ind}>
            <h6 >
             {ele} 
+         </h6>
             <h5>
              {urls[ind]}
          </h5>
-         </h6>
-         
+         </div>
            )
             })}
 </Then>
