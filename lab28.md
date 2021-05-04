@@ -7,6 +7,8 @@ making loading image untill fetching finish
 
 make a history section 
 
+# Netlify(https://ak94.netlify.app/)
+
 UML
 
 
