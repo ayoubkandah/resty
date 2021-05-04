@@ -1,7 +1,7 @@
 
 import{If,Then} from "../if-statement"
 
- History=()=>{
+ function History(){
 
 
     let triggerL=false

@@ -98,7 +98,7 @@ class Form extends React.Component {
               </section> */}
         <If condition={this.state.trigger}>
           <Then>
-<img src={loadingImg  }></img> 
+<img alt="Loading"src={loadingImg  }></img> 
             </Then> 
               </If>
           <br />
