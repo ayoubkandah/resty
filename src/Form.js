@@ -2,27 +2,29 @@ import React from 'react'
 
 class Form extends React.Component {
     // eslint-disable-next-line no-useless-constructor
-    constructor(prop) {
-        super(prop)
-        this.state = {
-            words: 'nothing to see here',
-            method:null,
-          };
-          this.Result = this.Result.bind(this);
-        }
-    Result(e){
+
+     Result=async(e)=> {
         e.preventDefault()
-        // console.log("ddd")
-        let url=e.target.url.value
-     let method=e.target.method.value
-     let p =document.createElement("p")
+        // e.target.url.value
+        //"https://swapi.dev/api/people/"
+      let data=await fetch("https://swapi.dev/api/people/")//?page=9
+      // console.log(dat  a)
+     let jsonData=await data.json()
+    //  console.log(jsonData)
+      this.props.recive(jsonData)
+
+
+//         // console.log("ddd")
+//           let url=e.target.url.value
+//      let method=e.target.method.value
+//      let p =document.createElement("p")
 
      
-let Result=document.getElementById("Result")
-Result.append(p)
-p.textContent=method+" "+ url
+// let Result=document.getElementById("Result")
+// Result.append(p)
+// p.textContent=method+" "+ url
 
-        // console.log(url)
+//         // console.log(url)
     }
 
         render(){
@@ -49,8 +51,8 @@ p.textContent=method+" "+ url
               <label className="radio" htmlFor="delete">DELETE</label>
               </div>
                 </form>
-              <section id="Result">
-              </section>
+              {/* <section id="Result">
+              </section> */}
               </div>
 
             );
