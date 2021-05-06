@@ -9,6 +9,7 @@ make main component that get all routes
 
 make a collection component that merge form and result components
 
+make a mounting DOM and update Dom to invoke function after rendering the page in the same class
 
 
 UML
