@@ -1,13 +1,17 @@
 # RESTy
-make if else then in react
+make a history page that display more info for saved data and have a button that switch to home page and fill the form inputs
 
-rendering api using fetch by all methods
+prevent duplicat the uniqe items
 
-making loading image untill fetching finish
+make the help page 
 
-make a history section 
+make main component that get all routes
+
+make a collection component that merge form and result components
+
+
 
 UML
 
 
-![uml](./lab28.jpg)
+![uml](./lab29.png)
