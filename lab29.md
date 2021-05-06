@@ -1,5 +1,5 @@
 # RESTy
-make a ## mounting DOM and update Dom to invoke function after rendering the page in the same class
+make a  ***mounting DOM and update Dom*** to invoke function after rendering the page in the same class
 
 
 make a history page that display more info for saved data and have a button that switch to home page and fill the form inputs
@@ -12,7 +12,7 @@ make main component that get all routes
 
 make a collection component that merge form and result components
 
-
+# [Netlify](https://ak94.netlify.app/)
 
 
 UML
